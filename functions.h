@@ -51,6 +51,8 @@ void numbers() {
 	while (!S.stackEmpty())
 		cout << S.Pop();
 
+	cout << endl;
+
 	system("pause");
 }
 
