@@ -38,10 +38,7 @@ public:
 	}
 
 	bool stackEmpty() {
-		if (this->_size == 0) {
-			return true;
-		}
-		return false;
+		return this->_size == 0;
 	}
 };
 
